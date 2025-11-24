@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    text-rendering: geometricPrecision;
+    font-family: var(--mtm-font-sans) !important;
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+}
+
+body{
+    font-size: 16px !important;
+    font-family: var(--mtm-font-sans) !important;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-weight: 400;
+}
+
+/* :where(p){
+    font: var(--mtm-f-1);
+    color: var(--mtm-color-black);
+    margin-top: 0;
+    :where(a){
+        color: var(--mtm-color-black);
+        text-decoration: underline;
+    }
+} */
+
+/* :where(ul li a), :where(ol li a){
+    color: var(--mtm-color-black);
+    text-decoration: none;
+}
+:where(ul li a:hover), :where(ol li a:hover){
+    text-decoration: underline;
+} */

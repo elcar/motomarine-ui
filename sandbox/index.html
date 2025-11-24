@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Motomarine UI Library</title>
+  </head>
+  <body>
+    
+    <mtm-header>
+
+        <img src="https://motomarineb2b.netlify.app/assets/img/logo.png" alt="Motomarine Logo" slot="logo" />
+
+        <div slot="actions">
+            <mtm-button variant="secondary" outline><a href="/user"><mtm-icon type="user"></mtm-icon></a></mtm-button>
+            <mtm-button><a href="/cart"><mtm-icon type="cart"></mtm-icon></a></mtm-button>
+        </div>
+
+        <ul slot="main-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Prodotti</a></li>
+          <li><a href="#">Servizi</a></li>
+          <li><a href="#">Contatti</a></li>
+        </ul>
+
+    </mtm-header>
+
+    <div id="page">
+        <mtm-container>
+            <mtm-title><h1>This is a sample page</h1></mtm-title>
+            <mtm-prose>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultrices faucibus risus, ac viverra odio sodales malesuada. Pellentesque maximus mi eros, in vulputate ante interdum vitae. Cras id mi mauris. Vestibulum sed gravida tortor. Duis vel purus ac ante ullamcorper tempus quis non magna. Quisque non semper orci. Phasellus efficitur eros eu felis gravida, vitae euismod lectus cursus. Maecenas tincidunt magna eget ipsum tempor, sit amet ullamcorper arcu malesuada. Nulla molestie aliquam nunc ac auctor. Ut vehicula porttitor leo, sed rhoncus nisl efficitur id.</p>
+    
+                <p>Integer et orci eget lectus sagittis porttitor:</p>
+                <ul>
+                    <li>Integer consectetur erat quam, id bibendum purus viverra ac.</li>
+                    <li>Sed sed ultrices odio.</li>
+                    <li>Sed pulvinar metus sit amet arcu semper ornare. Maecenas interdum felis urna.</li>
+                </ul>
+                <p>
+                    Donec congue erat est, rhoncus dignissim augue tincidunt sed. Ut elementum convallis lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel lobortis mi, sit amet tristique ligula. Fusce non condimentum nunc, sed tincidunt orci. Nulla sit amet velit velit. Aenean commodo libero eu metus accumsan, ut venenatis orci dignissim. Praesent non pellentesque tortor.
+                    <mtm-button><a href="#">Click here</a></mtm-button>
+                </p>
+                    
+                <p>
+                    Aenean volutpat suscipit mauris. Phasellus sit amet quam lacus. Pellentesque tempus dictum dolor, ac efficitur ipsum venenatis et. Integer sed ullamcorper lorem, in eleifend leo. Proin vitae interdum odio, eu ultricies tortor. Donec lorem orci, elementum vel odio vitae, dignissim pharetra metus. Sed faucibus hendrerit lobortis.
+                </p>
+                
+                <p>
+                    Suspendisse potenti. In tincidunt rutrum neque, in dapibus purus mattis vel. Maecenas non arcu nunc. Nullam ac ultrices lacus. Ut efficitur ligula ex, quis vulputate velit pretium sit amet. Nullam rhoncus, erat ac congue accumsan, tellus lorem placerat est, sit amet tempor erat magna sed sem. Fusce eu sagittis quam. Nullam ligula lacus, consequat a scelerisque eu, sodales faucibus lectus. Donec semper, augue at tempus commodo, tortor tortor rutrum ligula, nec malesuada urna velit ut ante. Nullam sed nulla a ante suscipit gravida at feugiat urna. Phasellus tincidunt nec arcu nec hendrerit. Donec id sem elit. Aenean rutrum risus sed posuere tempor. Suspendisse potenti.
+                </p>
+                
+                <p>
+                    Aliquam eget rhoncus sapien. Morbi fermentum molestie ipsum quis ornare. Vestibulum non libero interdum, elementum lacus non, fermentum augue. Proin sed fermentum mi, et sodales urna. Nam aliquam sit amet mi sed condimentum. Integer at elit a dolor consequat tincidunt. Duis porta tristique mi. Quisque vitae iaculis lorem. Vestibulum sodales rhoncus mauris, mattis ultrices quam pretium sit amet. Donec vestibulum convallis tincidunt. Pellentesque semper felis nec elit dictum commodo. Mauris nunc mauris, porttitor non aliquam commodo, commodo nec magna. Cras at sapien et massa tempor ornare.
+                </p>
+            </mtm-prose>
+
+            <mtm-button outline><a href="#">Click here</a></mtm-button>
+            <mtm-button variant="secondary"><a href="#">Click here</a></mtm-button>
+            <mtm-button variant="secondary" outline><a href="#">Click here</a></mtm-button>
+
+        </mtm-container>
+
+        <mtm-footer
+            company="Motomarine S.r.l."
+            address="Via Boveto, 12"
+            location="34136 Trieste (TS) Italy"
+        >
+
+            <img src="https://motomarineb2b.netlify.app/assets/img/logo.png" alt="Motomarine Logo" slot="logo" />
+            
+        </mtm-footer>
+    </div>
+
+    <script type="module">
+      import '@mtm-ui';
+    </script>    
+
+  </body>
+</html>

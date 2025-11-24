@@ -1,0 +1,11 @@
+@import 'styles/reset.css';
+@import 'styles/variables.css';
+@import 'styles/typography.css';
+
+mtm-header ul li a{
+    text-decoration: none;
+    color: var(--mtm-color-text-high);
+}
+mtm-header ul li a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,54 @@
+:root{
+    
+    /** Font Family */
+    --mtm-font-sans: Noto Sans, sans-serif;
+    
+    /** Colors */
+    --mtm-color-white: #fff;
+    --mtm-color-neutral-100: #FAFAFA;
+    --mtm-color-neutral-200: #f0f0f0;
+    --mtm-color-neutral-300: #CBCBCB;
+    --mtm-color-neutral-400: #A6A6A6;
+    --mtm-color-neutral-500: #444;
+    --mtm-color-black: #010101;
+    --mtm-color-primary-100: #FF0000;
+    --mtm-color-primary-200: #e60000;
+    --mtm-color-info-100: #EBF7FF;
+    --mtm-color-info-200: #0EA5E9;
+    --mtm-color-success-100: #E3FDEC;
+    --mtm-color-success-200: #22C55E;
+    --mtm-color-warning-100: #FFFBEB;
+    --mtm-color-warning-200: #F59E0B;
+    --mtm-color-error-100: #FEF2F2;
+    --mtm-color-error-200: #EF4444;
+
+    /** Surfaces */
+    --mtm-color-surface-100: var(--mtm-color-neutral-100);
+    --mtm-color-surface-200: var(--mtm-color-neutral-200);
+    --mtm-color-surface-300: var(--mtm-color-neutral-300);
+    --mtm-color-surface-400: var(--mtm-color-neutral-400);
+
+    /** Text */
+    --mtm-color-text-high: var(var(--mtm-color-black));
+    --mtm-color-text-low: var(var(--mtm-color-neutral-500));
+
+    /** Grid */
+    --mtm-grid-container-width: 100%;
+    @media (--md){
+        --mtm-grid-container-width: 768px;
+    }
+    @media (--lg){
+        --mtm-grid-container-width: 1024px;
+    }
+    @media (--xl){
+        --mtm-grid-container-width: 1280px;
+    }
+    --mtm-grid-gutter: 1rem;
+
+}
+
+@custom-media --md (min-width: 48rem);
+@custom-media --lg (min-width: 62rem);
+@custom-media --xl (min-width: 80rem);
+@custom-media --2xl (min-width: 120rem);
+@custom-media --3xl (min-width: 128rem);
