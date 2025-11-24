@@ -27,9 +27,9 @@ export default defineConfig({
     rollupOptions: {
       input: htmlFiles, // Entry point for test build
       output: {
-        entryFileNames: 'assets/iuav-ui.js',
-        chunkFileNames: 'assets/iuav-ui.js',
-        assetFileNames: 'assets/iuav-ui.[ext]',
+        entryFileNames: 'assets/mtm-ui.js',
+        chunkFileNames: 'assets/mtm-ui.js',
+        assetFileNames: 'assets/mtm-ui.[ext]',
       }
     },
   },
